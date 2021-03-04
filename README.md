@@ -7,3 +7,10 @@
 * [] CORS
 * [] Normalize file
 * [] Local storage
+
+## Links:
+* [about-corona](https://about-corona.net/)
+* [restcountries](https://github.com/hengkiardo/restcountries)
+* [chart.js](https://www.chartjs.org/)
+
+## Planning:
