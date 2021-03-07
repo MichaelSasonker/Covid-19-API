@@ -18,45 +18,47 @@
             </h1>
         </header>
         <main class="main-sec">
-            <canvas id="myChart" width="400" height="400"></canvas>
+            <canvas id="myChart"></canvas>
         </main>
         <footer class="footer-sec">
             <section class="continent-btn-cont">
-                <button class="Asia btn" type="submit" name="continent">
+                <button class="Asia btn" type="submit" name="continent" data-attr="Asia">
                     Asia
                 </button>
-                <button class="Europe btn" type="submit" name="continent">
+                <button class="Europe btn" type="submit" name="continent" data-attr="Europe">
                     Europe
                 </button>
-                <button class="Africa btn" type="submit" name="continent">
+                <button class="Africa btn" type="submit" name="continent" data-attr="Africa">
                     Africa
                 </button>
-                <button class="Americas btn" type="submit" name="continent">
+                <button class="Americas btn" type="submit" name="continent" data-attr="Americas">
                     Americas
                 </button>
-                <button class="Oceania btn" type="submit" name="continent">
+                <button class="Oceania btn" type="submit" name="continent" data-attr="Oceania">
                     Oceania
                 </button>
-                <button class="World btn" type="submit" name="continent">
+                <button class="World btn" type="submit" name="continent" data-attr="World">
                     World
                 </button>
             </section>
             <section class="data-btn-cont">
-                <button class="Confirmed data-btn" type="submit">
+                <button class="Confirmed data-btn" type="submit" data-attr="confirmed">
                     Confirmed
                 </button>
-                <button class="Deaths data-btn" type="submit">
+                <button class="Deaths data-btn" type="submit" data-attr="deaths">
                     Deaths
                 </button>
-                <button class="Recovered data-btn" type="submit">
+                <button class="Recovered data-btn" type="submit" data-attr="recovered">
                     Recovered
                 </button>
-                <button class="Critical data-btn" type="submit">
+                <button class="Critical data-btn" type="submit" data-attr="critical">
                     Critical
                 </button>
             </section>
         </footer>
-        <section class="countries-cont"></section>
+        <section class="countries-cont">
+            <ul class="list-cont"></ul>
+        </section>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     <script src="./script.js"></script>

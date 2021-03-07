@@ -24,3 +24,9 @@
     ---
 ## Planning:
 * Get the APIs
+* Get the relevant countries (when continent btn is pressed).
+* Display the relevant countries.
+* Get relevant data from covid API.
+* Set the data in Chart.js class.
+* Display the relevant graph for specific information btn.
+* Display the data of specific country.
